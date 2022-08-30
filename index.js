@@ -117,17 +117,73 @@
 //     console.log("No data found");
 // }
 
-const months = ["jan","March","April","June","July"];
+// const months = ["jan","March","April","June","July"];
 
-const indexOfMonth = months.indexOf("July")
+// const indexOfMonth = months.indexOf("July")
 
-if(indexOfMonth !== -1){
-   const updateMonth = months.splice(indexOfMonth,Infinity);
-   console.log(months);
-   console.log(updateMonth);
-}else{
+// if(indexOfMonth !== -1){
+//    const updateMonth = months.splice(indexOfMonth,1);
+//    console.log(months);
+//    console.log(updateMonth);
+// }else{
 
-    console.log("No data found");
-}
+//     console.log("No data found");
+// }
 
 //New Commit
+
+let GoodThings = ["Walk","Drink Water","Yoga","Healthy Food"]
+
+console.log(GoodThings);
+
+let NewThings = GoodThings.map((curElem,index,array) => {
+
+    return `Good Things is ${curElem} and index is ${index} and array of the good things is ${array}`;
+    
+})
+console.log(NewThings);
+
+//Array.prototype.map()
+
+// let NewArray = arr.map(callback(currentValue[, index[, array]])){
+
+    //return element for NewArray , after executing something 
+
+// }[, thisArg]);
+
+// Return a new array containing the result of calling a
+// function on every element in this array.
+
+// const array1 = [1,4,9,16,25];
+// //Num>9
+
+// let NewArray = array1.map((curElem,index,array) => {
+
+//     return curElem > 9;
+
+// })
+
+// console.log(array1);
+// console.log(NewArray);
+
+// find the square root of an each element in an array?
+
+// const array1 = [1,49,36,9,64];
+
+// let arrysqr = array1.map((curElem,index,array) => Math.sqrt(curElem) );
+
+// console.log(arrysqr);
+// Multiplying each element by 2 and return those element which are greater than 10?
+
+//alternate quotes
+
+let TestSentence = "This is 'test' ";
+
+console.log(TestSentence);
+
+
+// Searching for a string in a string
+
+
+
+
