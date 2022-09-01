@@ -132,16 +132,16 @@
 
 //New Commit
 
-let GoodThings = ["Walk","Drink Water","Yoga","Healthy Food"]
+// let GoodThings = ["Walk","Drink Water","Yoga","Healthy Food"]
 
-console.log(GoodThings);
+// console.log(GoodThings);
 
-let NewThings = GoodThings.map((curElem,index,array) => {
+// let NewThings = GoodThings.map((curElem,index,array) => {
 
-    return `Good Things is ${curElem} and index is ${index} and array of the good things is ${array}`;
+//     return `Good Things is ${curElem} and index is ${index} and array of the good things is ${array}`;
     
-})
-console.log(NewThings);
+// })
+// console.log(NewThings);
 
 //Array.prototype.map()
 
@@ -177,12 +177,200 @@ console.log(NewThings);
 
 //alternate quotes
 
-let TestSentence = "This is 'test' ";
+// let TestSentence = "This is 'test' ";
 
-console.log(TestSentence);
+// console.log(TestSentence);
 
 
 // Searching for a string in a string
+
+
+// JavaScript counts position from zero
+// 0 is the first position in a string, 1 is the second, 2 is third
+
+
+// let TestSentence = "This is test";
+
+// console.log(TestSentence.indexOf("is",5));
+
+// String.prototype.lastIndexOf(searchValue [, fromIndex])
+// Return the Index within the calling sting object of last occurrence of searchValue, or -1 if not found.
+
+// let TestSentence = "This is test";
+
+// console.log(TestSentence.lastIndexOf("s",6));
+
+// Searching for a string in a string
+
+// String.prototype.search(regexp)
+// The search method searches a string for a specified value and returns the position of the match
+
+
+// const TestSentence = "This is test";
+
+// let MyData = TestSentence.search("is");
+
+// console.log(MyData);
+
+// Extracting String Parts
+
+// There are 3 methods for extracting a part of a string
+
+// slice(start,end)
+// substring(start,end)
+// substr(start,end)
+
+// The slice() method extract the part of the string and returns the extracted part in a new string.
+
+// The method takes two parameters : start position and end position 
+
+// var str = "Apple, kiwi, Banana";
+
+// let MyVar = str.slice(0,4);
+
+// console.log(MyVar);
+
+// slice() method selects the elements starting at the given start arguments, and ends at, but does not include, the given end argument.
+
+// Display only 280 characters of the string like the one used in Twitter?
+
+// let MyTweets = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+
+// console.log(MyTweets.length);
+
+// let ManageTextTweet = MyTweets.slice(0, 200);
+
+// console.log(MyTweets);
+// console.log(ManageTextTweet);
+
+// console.log(ManageTextTweet.length);
+
+// The substring() Method
+// substring() is similar to slice()
+// The difference is that substring method can not accept negative indexes.
+
+// var str = "Apple, kiwi, Banana";
+
+
+// let NewString = str.substring(5,-2);
+
+// console.log(NewString);
+
+// The substr() method
+// substr() is similar to slice()
+
+// The difference is that second parameters specified length of extracted part.
+
+// var str = "Apple, kiwi, Banana";
+
+// let NewString = str.substr(-6);
+
+// console.log(NewString);
+
+// Replace String Content()
+
+// String.prototype.replace(searchFor, replaceWith)
+
+// The replace method replace a specified value with another value into the string.
+
+// let myBioData = "I Am Dhaval Shah";
+
+// let NewBio = myBioData.replace('Dhaval', 'Rohan');
+
+// console.log(NewBio);
+
+
+// Points to remember 
+
+// 1: The replace method does not change the string 
+// it is called on. It returns a new string 
+// 2: By Default the replace() method replace only the first match
+
+
+
+// Extracting sting characters
+
+// There are 3 method for extracting string characters
+
+// chartAt(position)
+// charCodeAt(position)
+// property access [ ]
+
+
+// The charAt() method 
+// The charAt() method returns the characters at a specified index(position) in a string
+
+// let str = "Hello World";
+
+// let NewStr = str.charAt(0);
+
+// console.log(NewStr);
+
+// The charCodeAt() Method
+// The charCodeAt() method returns the unicode of a character at a specified index in a string
+// The method returns a UTF-16 code
+
+// let str = "Hello World";
+
+// let NewStr = str.charCodeAt(1);
+
+// console.log(NewStr);
+
+
+// Returns the unicode of the last character of a string
+
+let str = "Hello World";
+
+let LastChar = str.length - 1;
+
+console.log(str.charCodeAt(LastChar));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
