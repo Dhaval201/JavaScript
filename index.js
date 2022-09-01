@@ -319,11 +319,11 @@
 
 // Returns the unicode of the last character of a string
 
-let str = "Hello World";
+// let str = "Hello World";
 
-let LastChar = str.length - 1;
+// let LastChar = str.length - 1;
 
-console.log(str.charCodeAt(LastChar));
+// console.log(str.charCodeAt(LastChar));
 
 
 
