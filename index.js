@@ -326,6 +326,49 @@
 // console.log(str.charCodeAt(LastChar));
 
 
+// Property Access
+
+// var str = "Hello world";
+
+// console.log(str[0]);
+
+// Other useful method
+
+// let myName = "Vinod Thapa";
+
+// console.log(myName.toUpperCase());
+// console.log(myName.toLowerCase());
+
+// let fName = "Shah";
+// let lName = "Dhaval";
+
+// console.log(fName + lName);
+// console.log(fName.concat(lName));
+// console.log(fName.concat(" ", lName));
+// console.log(`${fName} ${lName}`);
+
+// String.trim()
+
+// The trim() method removes whitespace from both side of a string 
+
+// let Name = "     Shah Dhaval    ";
+
+// console.log(Name.trim());
+
+// Converting a String to an array
+// A String can be converted to an array with split() method
+
+var txt = "a,b,c,d,e";
+
+console.log(txt.split(",")); // Split on Commas
+console.log(txt.split(" ")); // Split on Spaces
+console.log(txt.split("|")); // Split on pipe
+
+
+
+
+
+
 
 
 
